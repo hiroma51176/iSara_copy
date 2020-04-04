@@ -644,10 +644,10 @@ header {
 .ninth-wrapper {
     position: relative;
     background-color: #EBB94D;
-    /* padding-top: 40px; */
+    padding-top: 20px;
     text-align: center;
-    /* padding-bottom: 40px; */
-    padding: 0.6em;
+    padding-bottom: 40px;
+    /* padding: 0.6em; */
 }
 
 .ninth-wrapper p {
@@ -700,4 +700,71 @@ header {
   border-bottom: solid 5px white;
   bottom: 0;
   right: 0;
+}
+
+.tenth-wrapper {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 60px;
+}
+
+.tenth-wrapper h1 {
+    font-size: 28px;
+}
+
+.t10w-sentence1 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.t10w-container {
+    margin: auto;
+    width: 40%;
+}
+
+.t10w-item {
+    margin-top: 40px;
+}
+
+.t10w-item img {
+    width: 240px;
+    height: 240px;
+    border: solid 3px #EBB94D;
+    float: left;
+    margin-right: 30px;
+}
+
+.t10w-item p {
+    /* width: 80%; */
+    text-align: left;
+}
+
+.t10w-sentence2 {
+    font-size: 18px;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.t10w-sentence3 {
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.t10w-item span {
+    font-style: italic;
+}
+
+.eleventh-wrapper {
+    background-image: url(img/classbg.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.e11w-header {
+    /* background-color: blue; */
 }
