@@ -914,3 +914,116 @@ header {
     border-left: solid 3px #EBB94D;
     margin: auto;
 }
+
+/* ---------------------------------------------- */
+
+.fourteenth-wrapper {
+    background-image: url(img/bangkokbg.jpg);
+    background-size: cover;
+    background-position: center;
+    /* padding-top: 80px;
+    padding-bottom: 80px; */
+    padding: 100px;
+    /* width: 80%; */
+    color: white;
+}
+.f14w-container {
+    width: 80%;
+    margin:auto;
+}
+
+.fourteenth-wrapper h1 {
+    font-size: 24px;
+}
+
+.f14w-sentence1 {
+    font-size: 14px;
+}
+
+.fourteenth-wrapper ul {
+    padding-left: 20px;
+}
+
+.fourteenth-wrapper li {
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.f14w-sentence2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* ---------------------------------------------- */
+
+.fifteenth-wrapper {
+    background-color: #F7C23C;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.fifteenth-wrapper h1 {
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+
+.fifteenth-wrapper span {
+    color: white;
+}
+
+.fifteenth-wrapper p {
+    font-weight: bold;
+}
+
+.f15w-sentence0 {
+    margin-bottom: 80px;
+}
+
+.f15w-contents {
+    position: relative;
+    border: solid 3px white;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    padding-top: 45px;
+    padding-bottom: 50px;
+}
+
+.fifteenth-wrapper h2 {
+    display: inline-block;
+    font-size: 28px;
+    /* width: 60%; */
+    background-color: #F7C23C;
+    position: absolute;
+    top: 0;
+    /* left: 50%; */
+    transform: translateY(-50%) ;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.f15w-item {
+    position: relative;
+    background-color: white;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    padding: 15px;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+.f15w-item h3 {
+    color: #F7C23C;
+    font-size: 24px;
+
+}
+
+.f15w-para {
+}
