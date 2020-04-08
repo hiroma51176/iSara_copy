@@ -1170,3 +1170,63 @@ header {
     padding: 15px 10px;
     border: none;
 }
+
+.nineteen-wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.nineteen-wrapper h1 {
+    font-size: 28px;
+}
+
+.n19w-menu {
+    text-align: left;
+    width: 80%;
+    margin: auto;
+}
+
+.n19w-menu-item {
+    display: block;
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.n19w-menu-item-link {
+    position: relative;
+    display: block;
+    padding: 20px;
+    border: solid 3px #E5E5E5;
+}
+
+.n19w-menu-item-link:after {
+    content: '';
+    position: absolute;
+    right: 25px;
+    top: 38%;
+    transition: all 0.2s ease-in-out;
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-top: solid 3px #000;
+    border-right: solid 3px #000;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+
+.n19w-menu-item-link.open:after {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 45%;
+}
+
+.n19w-submenu {
+    display: none;
+}
+
+.n19w-submenu-item {
+    padding: 10px;
+}
