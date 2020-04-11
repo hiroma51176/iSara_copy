@@ -1239,3 +1239,37 @@ header {
     padding: 10px;
     font-size: 16px;
 }
+
+footer {
+    background-color: #ECECEC;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.footer-twitter, .footer-good {
+    background-color: #1B95E0;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 2px 10px;
+    /* padding-right: 5px; */
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 5px;
+    /* vertical-align:middle; */
+}
+
+.footer-twitter {
+    background-color: #1B95E0;
+}
+
+.footer-good {
+    background-color: #1877F2;
+}
+
+.footer-sns-btn {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
