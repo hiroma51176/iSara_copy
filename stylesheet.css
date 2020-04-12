@@ -1,18 +1,22 @@
-header {
-  /* max-width: 1500px; */
-  /* text-align: center; */
+.header {
   margin: auto;
   width: 80%;
-  /* height: 70px; */
-  /* position: fixed; */
-  padding-bottom: 10px;
+}
+
+.header-bk {
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    position: fixed;
+    padding: 10px 50px;
+    z-index: 99;
 }
 
 .logo {
   width: 125px;
   height: 40px;
   vertical-align: bottom;
-  /* margin-left: 180px; */
 }
 
 .subtitle {
@@ -23,10 +27,7 @@ header {
 .seikyu {
   width: 320px;
   height: 50px;
-  /* margin: 0 auto; */
   float: right;
-  /* margin-right: 180px; */
-  /* padding: 15px 40px; */
   background-color: #DA6B64;
   border-radius: 40px;
   color: white;
