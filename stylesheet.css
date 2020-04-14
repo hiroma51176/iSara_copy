@@ -57,25 +57,30 @@
   line-height: 55px;
 }
 
+/* 画面幅が1240pxまでの時 */
+@media screen and (max-width: 1240px){
+    .subtitle {
+        font-size: 10px;
+    }
+
+
+}
+
+/* --------------------------------------------------------------- */
+
 .first-wrapper {
-  /* max-width: 1500px; */
-  height: 500px;
   background-image: url(img/main.jpg);
   background-size: 100% 100%;
   text-align: center;
 }
 
 .fw-contents {
-  padding-top: 100px;
+  padding-top: 170px;
   padding-bottom: 100px;
 }
 
 .first-wrapper h1{
   font-size: 28px;
-}
-
-.fw-title {
-  /* padding-top:100px; */
 }
 
 .first-wrapper img {
@@ -87,18 +92,17 @@
   font-weight: bold;
 }
 
+/* ----------------------------------------------------------------- */
 
 .second-wrapper {
   text-align: center;
   background-color: #EBB94D;
   color: white;
-  /* max-width: 1500px; */
   width: 100%;
-  height: 600px;
+  padding-bottom: 40px;
 }
 
 .sw-title {
-  /* font-size: 20px; */
   padding-top: 35px;
   padding-bottom: 20px;
 }
@@ -114,12 +118,10 @@
   font-size: 18px;
   background-color: #F9F2F4;
   color: #c7254e;
-  /* margin-top: 20px;
-  margin-bottom: 50px; */
+  padding: 2px;
 }
 
 .sw-seikyu {
-  /* width: 1030px; */
   width: 60%;
   margin: 0 auto;
   font-size: 28px;
@@ -168,11 +170,18 @@
 }
 .sw-list li {
   display: inline;
-  background-color: #1877F2;
   padding: 5px 10px;
-
+  border-radius: 3px;
   margin-right: 5px;
 }
+
+  .sw-twitter {
+      background-color: #1B95E0;
+  }
+
+  .sw-good {
+      background-color: #1877F2;
+  }
 
 .sw-list a{
   color: #ffffff;
@@ -183,12 +192,11 @@
   margin-right: 5px;
 }
 
+/* --------------------------------------------------------------- */
 
 .third-wrapper {
   padding-top: 40px;
   text-align: center;
-  /* max-width: 1500px; */
-  /* height: 590px; */
   background-image: url(img/introbottom.jpg);
   background-size: 100% 100%;
   padding-bottom: 140px;
@@ -196,7 +204,6 @@
 
 .tw-main {
   position: relative;
-  /* width: 860px; */
   width: 60%;
   margin: 0 auto;
 }
@@ -252,8 +259,6 @@
 }
 
 .forth-wrapper {
-  /* max-width: 1500px; */
-  /* height: 600px; */
   background-color: #FEF5E0;
   text-align: center;
   padding-top: 80px;
@@ -279,7 +284,6 @@
 
 .f4w-main {
   position: relative;
-  /* width: 860px; */
   width: 60%;
   margin: 0 auto;
   padding-top: 30px;
